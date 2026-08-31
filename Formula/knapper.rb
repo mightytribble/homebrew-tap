@@ -1,8 +1,8 @@
 class Knapper < Formula
   desc "Local hybrid search and MCP retrieval for Obsidian-format vaults"
   homepage "https://github.com/mightytribble/knapper"
-  url "https://github.com/mightytribble/knapper/archive/refs/tags/v0.9.0.tar.gz"
-  sha256 "f249a47fd723ddb8cce4deee325238afb642071caff8903378dd0100e746993e"
+  url "https://github.com/mightytribble/knapper/archive/refs/tags/v0.9.1.tar.gz"
+  sha256 "44fa0a8114c1a3ac2f218273aa98c03e30618fef41b2208d3095d591537eb6dc"
   license "MIT"
   head "https://github.com/mightytribble/knapper.git", branch: "main"
 
