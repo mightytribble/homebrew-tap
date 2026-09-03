@@ -2,19 +2,19 @@ class Knapper < Formula
   desc "Local hybrid search and MCP retrieval for Obsidian-format vaults"
   homepage "https://github.com/mightytribble/knapper"
   license "MIT"
-  version "0.9.4"
+  version "0.9.5"
 
   # Apple Silicon and Linux x86_64 install the released binary,
   # which links nothing outside the system libraries. Every other
   # platform builds from source, so no one loses an install path.
   on_macos do
     on_arm do
-      url "https://github.com/mightytribble/knapper/releases/download/v0.9.4/knapper-macos-arm64.tar.gz"
-      sha256 "b06bfe009a123259d87074eb9b732c2a6822c1ca6c2db1e4caa5ac3ba86e3d23"
+      url "https://github.com/mightytribble/knapper/releases/download/v0.9.5/knapper-macos-arm64.tar.gz"
+      sha256 "05205168cd2a4cf35bb9b2c5ff02e3aaa88c9d3b71037fc347f6ac2b3da89344"
     end
     on_intel do
-      url "https://github.com/mightytribble/knapper/archive/refs/tags/v0.9.4.tar.gz"
-      sha256 "d32306b8ab5e4ad827d14f29975733e603b214579fe69da5440f8c4d12304e0d"
+      url "https://github.com/mightytribble/knapper/archive/refs/tags/v0.9.5.tar.gz"
+      sha256 "ec3e0dd657a6122b2e36e9320da07ced442423267bd3e1a9331d2cd61ed1610b"
       depends_on "cmake" => :build
       depends_on "rust" => :build
     end
@@ -22,12 +22,12 @@ class Knapper < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/mightytribble/knapper/releases/download/v0.9.4/knapper-linux-x86_64.tar.gz"
-      sha256 "0d02f5f6375a6f2665fbc1ed48a720ecaa157014fe6c4920955ce0ae4714d861"
+      url "https://github.com/mightytribble/knapper/releases/download/v0.9.5/knapper-linux-x86_64.tar.gz"
+      sha256 "69febd63e92d5dcd4e20b71d32c2713c1344bf692fd990da7048d105c87d7fa6"
     end
     on_arm do
-      url "https://github.com/mightytribble/knapper/archive/refs/tags/v0.9.4.tar.gz"
-      sha256 "d32306b8ab5e4ad827d14f29975733e603b214579fe69da5440f8c4d12304e0d"
+      url "https://github.com/mightytribble/knapper/archive/refs/tags/v0.9.5.tar.gz"
+      sha256 "ec3e0dd657a6122b2e36e9320da07ced442423267bd3e1a9331d2cd61ed1610b"
       depends_on "cmake" => :build
       depends_on "rust" => :build
     end
